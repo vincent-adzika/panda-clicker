@@ -1,12 +1,78 @@
-# Ignore secrets
-.env
-service_account.json
-*.db
-
-# Python cache
+# Byte-compiled / optimized / DLL files
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
 
-# OS files
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# mypy
+.mypy_cache/
+.dmypy.json
+
+# VS Code
+.vscode/
+
+# dotenv environment variables
+.env
+.env.*
+
+# Google API credentials and tokens
+credentials.json
+token.pickle
+panda-clicker-470021-95f4bd44f26f.json
+
+
+# Backup and log files
+*.bak
+*.log
+
+# System files
 .DS_Store
 Thumbs.db
+
+# Other
+links*.json
+botdata.sqlite3
+"panda-clicker-470021-95f4bd44f26f.json" 

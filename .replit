@@ -1,8 +1,0 @@
-run = "python3 bot.py"
-language = "python3"
-
-[env]
-PYTHONPATH = "${PYTHONPATH}:${workspaceDir}"
-
-[nix]
-channel = "stable-22_11"
